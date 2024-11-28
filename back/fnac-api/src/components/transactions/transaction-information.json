@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_transactions_transaction_informations",
+  "info": {
+    "displayName": "Transaction Information",
+    "icon": "shoppingCart"
+  },
+  "options": {},
+  "attributes": {
+    "buyer_info": {
+      "type": "text"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "payment_status": {
+      "type": "enumeration",
+      "enum": [
+        "Paid",
+        "Refused",
+        "On hold"
+      ]
+    },
+    "transaction_amount": {
+      "type": "decimal"
+    }
+  }
+}

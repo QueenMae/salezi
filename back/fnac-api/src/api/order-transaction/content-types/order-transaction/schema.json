@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "order_transactions",
+  "info": {
+    "singularName": "order-transaction",
+    "pluralName": "order-transactions",
+    "displayName": "order_transaction"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Amount": {
+      "type": "decimal"
+    },
+    "is_valid": {
+      "type": "boolean"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_stock_stock_informations",
+  "info": {
+    "displayName": "Stock Information",
+    "icon": "shirt"
+  },
+  "options": {},
+  "attributes": {
+    "stock_quantity": {
+      "type": "integer"
+    },
+    "low_stock": {
+      "type": "integer"
+    }
+  }
+}
